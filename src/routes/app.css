@@ -1,0 +1,96 @@
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-size: clamp(18px, 3vw, 24px);
+  font-family: 'Sono', sans-serif;
+  background-color: #828884;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Smokum', cursive;
+}
+
+
+.body-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  gap: 2rem;
+}
+/* Banner */
+
+.site-title {
+  font-size: 24px;
+}
+
+img {
+  display: block;
+  /* height: 100px; */
+  width: 70px;
+  height: initial;
+}
+
+nav ul {
+  padding-left: 0;
+
+  list-style: none;
+}
+
+nav a {
+  display: block;
+  padding: 0.5em 1em;
+
+  font-size: 50px;
+  text-decoration: none;
+  text-align: center;
+  
+  color: rgb(228, 201, 28);
+  /* border: 1px solid maroon; */
+}
+
+main {
+  max-width: 85ch;
+  margin: auto;
+  min-height: 100vh;
+}
+
+footer {
+  background-color: #c20c0c;
+  border-top: 2px solid #c20c0c;
+  margin: 0;
+}
+
+@media screen and (min-width: 60em) {
+  header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #c20c0c;
+  }
+
+  nav ul {
+    display: flex;
+    margin: 0;
+  }
+
+  img {
+    border-radius: 5rem;
+    width: 100px;
+  }
+
+  nav a {
+    width: max-content;
+    font-size: 24px;
+  }
+
+  .site-title {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+  }
+
+}
+
