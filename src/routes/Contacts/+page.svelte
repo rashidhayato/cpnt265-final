@@ -7,7 +7,7 @@
   <h1>Contact US</h1>
   <div class="contact">
     <h3>Online Customer Service</h3>
-    <p>Drop us a line through the form below, and we will get back to you ASAP</p>
+    <p>Get in touch and we'll get back to you as soon as we can. We look forward to hearing from you!</p>
     <form action="https://formspree.io/f/xqkodero" method="POST">
       <label for="fullname">Full Name</label>
       <input type="name" name="name" />
