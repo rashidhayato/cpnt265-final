@@ -5,8 +5,15 @@
 <header>
   <a href="/" class="site-title">
     <img src="/images/rashid-brb-logo.png" alt="Barber shop Logo" width="100" height="100">
-    <div>One Nation BarberShop</div>
     
   </a>
+  <h1>One Nation BarberShop</h1>
   <Nav />
 </header>
+
+<style> 
+header{
+
+  text-decoration: none;
+}
+</style>
